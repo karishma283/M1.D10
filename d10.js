@@ -25,5 +25,6 @@ const details={
 }
 console.log("EXERCISE 2",details)
 
-
+delete details.email
+console.log("EXERCISE 3",details)
 
