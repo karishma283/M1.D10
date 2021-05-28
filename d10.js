@@ -24,9 +24,10 @@ const details={
     email:"itsmekareshma@gmail.com"
 }
 console.log("EXERCISE 22",details)
-//Exercise 23:
+//Exercise 24:
 delete details.email
 console.log("EXERCISE 23",details)
 
 const ten=["karishma","shaik","yaseen","munny","khasim","gowtham","akshay","vidyu","harish","buvi"];
-console.log("EXERCISE 23",ten)
+console.log("EXERCISE 24",ten)
+console.log("EXERCISE 25",ten)
