@@ -17,3 +17,13 @@ JS EXERCISES
 const x="John"
 const y="Doe"
 console.log("Exercise 1",'"',x,"<>",y,'"');
+
+const details={
+    name:"karishma",
+    surname:"shaik",
+    email:"itsmekareshma@gmail.com"
+}
+console.log("EXERCISE 2",details)
+
+
+
