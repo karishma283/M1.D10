@@ -33,5 +33,5 @@ console.log("EXERCISE 24",ten)
 //Exercise 25:
 console.log("EXERCISE 25",ten)
 //Exercise 26:
-let randomNumber = Array.from({length: 100}, () => Math.floor(Math.random() * 100));
+const randomNumber = Array.from({length: 100}, () => Math.floor(Math.random() * 100));
 console.log("Exercise 26",randomNumber)
