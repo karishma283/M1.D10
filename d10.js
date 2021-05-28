@@ -13,18 +13,20 @@ JS EXERCISES
         30) Create a function that gets 2 arrays of numbers and returns the one with the higher sum of values
 
 */
-//Exercise 1:
+//Exercise 21:
 const x="John"
 const y="Doe"
-console.log("Exercise 1",'"',x,"<>",y,'"');
-//Exercise 2:
+console.log("Exercise 21",'"',x,"<>",y,'"');
+//Exercise 22:
 const details={
     name:"karishma",
     surname:"shaik",
     email:"itsmekareshma@gmail.com"
 }
-console.log("EXERCISE 2",details)
-//Exercise 3:
+console.log("EXERCISE 22",details)
+//Exercise 23:
 delete details.email
-console.log("EXERCISE 3",details)
+console.log("EXERCISE 23",details)
 
+const ten=["karishma","shaik","yaseen","munny","khasim","gowtham","akshay","vidyu","harish","buvi"];
+console.log("EXERCISE 23",ten)
