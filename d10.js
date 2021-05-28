@@ -24,10 +24,14 @@ const details={
     email:"itsmekareshma@gmail.com"
 }
 console.log("EXERCISE 22",details)
-//Exercise 24:
+//Exercise 23:
 delete details.email
 console.log("EXERCISE 23",details)
-
+//Exercise 24:
 const ten=["karishma","shaik","yaseen","munny","khasim","gowtham","akshay","vidyu","harish","buvi"];
 console.log("EXERCISE 24",ten)
+//Exercise 25:
 console.log("EXERCISE 25",ten)
+//Exercise 26:
+let randomNumber = Array.from({length: 100}, () => Math.floor(Math.random() * 100));
+console.log("Exercise 26",randomNumber)
