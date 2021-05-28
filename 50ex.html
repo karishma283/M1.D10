@@ -17,15 +17,60 @@ HTML EXERCISES
 9) Create a container with a nested paragraph and a nested unordered list
 10) Create a footer with some information about the page creator 
 !-->
-
+<!--
+11) Give a maximum width to the body and center it in the page
+12) Set every h1 to be centered
+13) Change the color of each link in the page
+14) Create a class with a border
+15) Set table to have rounded corners
+16) Add margin between every paragraph
+17) Create a class which change font size and boldness
+18) Create a class to hide a content
+19) Add a green border to each td
+20) Add a dotted red border to each tr (note: tr does not accept a border property ;-) )
+!-->
 <head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>50exHTML</title>
     <style>
-table,td,th{
-    border:1px solid black;
-    text-align:center;
+        body { 
+	max-width: 1080px; 
+	margin: 0 auto; 	
 }
-table{
-    width:100%
+h1
+{
+    text-align: center;
+}
+    table,th{
+        border:2px solid black;
+        text-align:center;
+    }   
+    table{
+        width:100%;
+    }
+    td{
+        border:2px solid green;
+    }
+a {
+  color: blue;
+}
+a:visited {
+  color:purple;
+}
+a:hover, a:active, a:focus {
+  color:red;
+}
+
+.border {
+    border-radius: 25px;
+}
+p {
+  margin-bottom: 30px; /* between paragraphs */
+  }
+.change{
+    font-size:15px;
+}
+
+.hide {
+  visibility: hidden;
 }
 </style>
     </head>
@@ -39,7 +84,7 @@ table{
             <li>Watermelon</li>
         </ol>
         <hr>
-        <table border:1px solid black;><h2>Routine</h2>
+        <table class="border"><h1>Routine</h1>
 
             <th>Hours/Day</th>
             <th>Monday-Thursday</th>
@@ -48,25 +93,25 @@ table{
         
            <tr>
                <td>8.00</td>
-               <td><a href="https://static.toiimg.com/photo/62457973.cms"><img src="https://static.toiimg.com/photo/62457973.cms"alt="wakeup" width="50" height="60"></a></td>
+               <td><a href="https://static.toiimg.com/photo/62457973.cms">wakeup<img src="https://static.toiimg.com/photo/62457973.cms"alt="wakeup" width="50" height="60"></a></td>
                <td>Wakeup</td>
                <td>Sleep</td>
            </tr>
             <tr>
                 <td>9.00</td>
-                <td><a href="https://img.lovepik.com/photo/40010/6184.jpg_wh860.jpg"><img src="https://img.lovepik.com/photo/40010/6184.jpg_wh860.jpg" alt="Attend Class" width="50" height="60"></a></td>
+                <td><a href="https://img.lovepik.com/photo/40010/6184.jpg_wh860.jpg">Attend Class<img src="https://img.lovepik.com/photo/40010/6184.jpg_wh860.jpg" alt="Attend Class" width="50" height="60"></a></td>
                 <td>Join Zoom Meeting</td>
                 <td>Sleep</td>
             </tr>
             <tr>
                 <td>13.00</td>
-                <td><a href="https://cdn.loveandlemons.com/wp-content/uploads/2018/01/lunch-ideas-500x500.jpg"><img src="https://cdn.loveandlemons.com/wp-content/uploads/2018/01/lunch-ideas-500x500.jpg" alt="Lunch" widht="50" height="60"></a></td>
+                <td><a href="https://cdn.loveandlemons.com/wp-content/uploads/2018/01/lunch-ideas-500x500.jpg">Lunch<img src="https://cdn.loveandlemons.com/wp-content/uploads/2018/01/lunch-ideas-500x500.jpg" alt="Lunch" widht="50" height="60"></a></td>
                 <td>Lunch</td>
                 <td>Practise Lessons</td>
             </tr>
             <tr>
                 <td>17.00</td>
-                <td><a href="https://news.rice.edu/files/2018/05/teamtraining-b-21yfkne.jpg"><img src="https://news.rice.edu/files/2018/05/teamtraining-b-21yfkne.jpg"alt="Debrief" widht="50" height="60"></a></td>
+                <td><a href="https://news.rice.edu/files/2018/05/teamtraining-b-21yfkne.jpg">Debrief<img src="https://news.rice.edu/files/2018/05/teamtraining-b-21yfkne.jpg"alt="Debrief" widht="50" height="60"></a></td>
                 <td>Practise</td>
                 <td>Movie Time</td>
             </tr>
@@ -76,7 +121,6 @@ table{
         </table>
         <div>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam cupiditate explicabo perspiciatis iure cum, atque nihil delectus enim facilis consequatur laudantium? Voluptatibus, quod debitis. Consequuntur facilis officia aspernatur vero!</p>
-
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit eos sunt, sed eaque nihil corporis ut veritatis cupiditate officiis ipsam mollitia soluta provident! Ut rem aspernatur quam, porro esse dolores!</p>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit necessitatibus molestiae quam soluta eos tenetur quae debitis amet quas! Amet tempore quae autem nihil illum nam commodi quos suscipit iure?</p>
     <ul>
